@@ -5,3 +5,7 @@ A folder with .git name is created inside the folder in which the git init comma
 2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging ares is kind of middle man or temporary area where files ready to be committed are present. This is volatile and temporary, so one can remove files from staging area too... It offers the flexibility of choosing which files to be added to any particular commit... It also provides us the opportunities to undo any extra file added by mistake so allows to prevent it from getting committed...
+
+3.How can you use the staging area to make sure you have one commit per logical change?
+
+Corresponding to one logical change, we will add only those files to the staging area... So, during commit, the related/ linked files will only be committed.....
