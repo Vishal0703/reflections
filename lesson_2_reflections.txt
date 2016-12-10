@@ -14,3 +14,4 @@ Corresponding to one logical change, we will add only those files to the staging
 
 When we want to develop a new version, do some experiment on the existing version, modify the existing version so as to make it better but at the same time not interrupting its workflow....Branches would help in doing all of these...
 
+5.
