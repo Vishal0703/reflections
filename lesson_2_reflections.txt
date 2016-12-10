@@ -9,3 +9,8 @@ Staging ares is kind of middle man or temporary area where files ready to be com
 3.How can you use the staging area to make sure you have one commit per logical change?
 
 Corresponding to one logical change, we will add only those files to the staging area... So, during commit, the related/ linked files will only be committed.....
+
+4.What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When we want to develop a new version, do some experiment on the existing version, modify the existing version so as to make it better but at the same time not interrupting its workflow....Branches would help in doing all of these...
+
