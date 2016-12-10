@@ -1,0 +1,7 @@
+1.What happens when you initialize a repository? Why do you need to do it?
+
+A folder with .git name is created inside the folder in which the git init command has been initialised... To use the git functions, it is necesare that th folder/repository shoud be a git repository...
+
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging ares is kind of middle man or temporary area where files ready to be committed are present. This is volatile and temporary, so one can remove files from staging area too... It offers the flexibility of choosing which files to be added to any particular commit... It also provides us the opportunities to undo any extra file added by mistake so allows to prevent it from getting committed...
