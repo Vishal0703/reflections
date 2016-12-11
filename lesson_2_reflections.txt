@@ -21,3 +21,10 @@ The diagram give me the idea of reachability of one commit from another and help
 6.What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 As a result of merging, the changes from both the branches have been introduced, i.e. the final commit will have the contributions from both the branches.... We give the final commit a new message and make it's parent point to both the branches, so that we can easily track both the branches even if we delete the subsidiary branch...
+
+7.What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros:- We don't have to compare the entire code of both the parties so as to check which changes to keep or not... If we are meging more than one branch, then merging manually can be pretty tiresome and time taking...
+
+Cons:- If accidentally a code is deleted or something, then during merging it won't take into account that line.... also the spaces, tabs and all these things are to be kept in mind, so as to have a successful merge...
+
