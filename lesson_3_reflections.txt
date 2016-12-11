@@ -1,1 +1,3 @@
+1.Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
+We might not yet want to upload the code or changes made(commits) for the public view.... Also, while working, we might want to keep the original running on....
