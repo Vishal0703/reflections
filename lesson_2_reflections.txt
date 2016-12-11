@@ -14,4 +14,10 @@ Corresponding to one logical change, we will add only those files to the staging
 
 When we want to develop a new version, do some experiment on the existing version, modify the existing version so as to make it better but at the same time not interrupting its workflow....Branches would help in doing all of these...
 
-5.
+5.How do the diagrams help you visualize the branch structure?
+
+The diagram give me the idea of reachability of one commit from another and helps me understand the working of branches more clearly... Now, the danger of loosing a commit is less...
+
+6.What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+As a result of merging, the changes from both the branches have been introduced, i.e. the final commit will have the contributions from both the branches.... We give the final commit a new message and make it's parent point to both the branches, so that we can easily track both the branches even if we delete the subsidiary branch...
